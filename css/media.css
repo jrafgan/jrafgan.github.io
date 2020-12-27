@@ -1,0 +1,262 @@
+@media screen and (min-width: 321px) {
+    .body .container {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    form {
+        margin: 0 0 0 1vw;
+    }
+
+    .logo {
+        margin: 15px 15px 0 15px;
+    }
+
+    .box {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .feedback {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .nav-btn {
+        display: none;
+    }
+
+    .main-nav ul {
+        top: 20px;
+        right: 0;
+        width: auto;
+        padding: 4px 0 0 0;
+        background: transparent;
+        display: block;
+        font-weight: 600;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .main-nav a {
+        font-size: 14px;
+        display: inline-block;
+        border: none;
+        color: #868686;
+        padding: 8px 20px;
+        font-weight: 600;
+        border-radius: 3px;
+
+    }
+
+    .main-nav a:hover {
+        color: #fff;
+        background: #ffbb42;
+    }
+
+    .white-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        width: 46%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    input {
+        width: 241px;
+        padding-left: 40px;
+        height: 46px;
+        background-position: 15px 17px;
+        margin: 5px 0 5px 13px;
+    }
+
+    .form-btn {
+        width: 281px;
+        height: 46px;
+        margin: 30px 0 0 13px;
+    }
+
+    .email {
+        background-image: url(../images/ic-cover.png);
+    }
+
+    .phone {
+        background-image: url(../images/ic-phone.png);
+    }
+
+    form {
+        margin: 0;
+    }
+
+    .form-btn::after {
+        left: 13px;
+        top: 65px;
+    }
+
+    .body {
+        height: 490px;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    h4 {
+        padding-left: 67px;
+    }
+
+    .box p {
+        padding-left: 41px;
+    }
+
+    .box i {
+        top: 6px;
+    }
+
+    .box:hover i {
+        top: 6px;
+    }
+
+    .orange-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feedback {
+        width: 46%;
+        display: inline-block;
+        margin: 20px 0 20px 25px;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+    .body .container {
+        width: 1171px;
+    }
+
+    .main-nav li {
+        padding-right: 2px;
+    }
+
+    .body {
+        height: 605px;
+        margin-top: -5px;
+    }
+
+    h2 {
+        font-size: 35px;
+        padding: 99px 0 0 52px;
+        margin-bottom: 0;
+    }
+
+    .body p {
+        font-size: 16px;
+        margin: 0 0 32px 42px;
+    }
+
+    input {
+        margin: -14px -1px 5px 9px;
+    }
+
+    .form-btn {
+        display: inline-block;
+        margin: 0 0 0 0;
+    }
+
+    .form-btn::after {
+        content: "";
+        display: block;
+        width: 648px;
+        height: 345px;
+        left: -600px;
+        top: 113px;
+        background: url(../images/laptop.png) 0 0 no-repeat;
+        position: absolute;
+    }
+
+    h3 {
+        font-size: 30px;
+        padding: 147px 0 0 34px;
+        margin-bottom: 0;
+    }
+
+    .first-p {
+        font-size: 16px;
+        padding: 0 0 0 32px;
+        margin-top: 0;
+    }
+
+    h4 {
+        font-size: 16px;
+        padding: 0 0 0 41px;
+        margin: 70px 0 14px 0;
+    }
+
+    .box {
+        width: 495px;
+        margin: 0;
+    }
+
+    .white-boxes p {
+        font-size: 13px;
+    }
+
+    .white-boxes {
+        padding: 0;
+    }
+
+    .box i {
+        top: 2px;
+        left: -40px;
+    }
+
+    .box:hover i {
+        top: 2px;
+        left: -40px;
+    }
+
+    .white-boxes .box:nth-child(even) {
+        margin-left: 69px;
+    }
+
+    .orange-body {
+        margin-top: 130px;
+    }
+
+    .orange-body .first-p {
+        color: #fff;
+    }
+
+    h5 {
+        margin: 85px 0 0 0;
+        padding-left: 34px;
+        font-size: 30px;
+    }
+
+    s {
+        position: relative;
+        display: none;
+    }
+
+    s::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 121px;
+        height: 121px;
+        display: block;
+        background: url(../images/darwin.png) 0 0 no-repeat;
+    }
+}

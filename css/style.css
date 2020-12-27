@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+    color: #7b7b7b;
+    background-color: #fff;
+    font-size: 13px;
+    line-height: 1.3;
+    min-width: 303px;
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    min-width: 303px;
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 50px;
+    height: 48px;
+    background: url(../images/logo.png) 50% 0 no-repeat;
+    float: left;
+    font-size: 0;
+}
+
+.nav-btn {
+    width: 50px;
+    height: 48px;
+    background-color: #ffbb42;
+    float: right;
+    border: none;
+    position: relative;
+}
+
+.nav-btn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    margin: -1px 0 0 -9px;
+}
+
+.nav-btn i::before,
+.nav-btn i::after {
+    content: "";
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+}
+
+.nav-btn i::before {
+    top: -6px;
+}
+
+.nav-btn i::after {
+    top: 6px;
+}
+
+.nav-btn.is-active i {
+    background: transparent;
+}
+
+.nav-btn.is-active i::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.nav-btn.is-active i::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+
+.main-nav {
+    position: relative;
+}
+
+.main-nav ul {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    list-style: none;
+    width: 70%;
+    padding: 10px;
+    margin: 0;
+    background-color: #ffbb42;
+    display: none;
+}
+
+.main-nav li {
+    padding: 0;
+    margin: 0;
+}
+
+li a:hover {
+    color: #709dca;
+}
+
+.main-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+    padding: 10px 5px;
+    border-bottom: 1px solid #fff;
+}
+
+h2, h3, h5 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-nav li:last-child a {
+    border-bottom: none;
+}
+
+.body {
+    background: #709dca;
+    color: #fff;
+    height: 435px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+h3 {
+    padding-top: 70px;
+    color: #394b50;
+}
+
+h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 57px;
+}
+
+.first-p {
+    text-align: center;
+}
+
+.white-body a {
+    color: #2a3032;
+    text-decoration: none;
+}
+
+.white-body p:first-child {
+    color: #46575c;
+}
+
+input {
+    margin: 5px 0 5px 51px;
+    width: 170px;
+    padding-left: 25px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 4px 4px;
+    border: none;
+    border-radius: 3px;
+}
+
+.username {
+    background-image: url(../images/ic-man.png);
+}
+
+.email {
+    background-image: url(../images/ic-cover.png);
+}
+
+.phone {
+    background-image: url(../images/ic-phone.png);
+}
+
+.form-btn {
+    display: block;
+    background: #ffbb42;
+    border: none;
+    border-radius: 3px;
+    margin: 30px 0 0 65px;
+    width: 170px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+
+.form-btn::after {
+    content: "";
+    display: block;
+    width: 249px;
+    height: 133px;
+    left: -40px;
+    top: 65px;
+    background: url(../images/laptop-mobile.png) 0 0 no-repeat;
+    position: absolute;
+}
+
+.box i {
+    background-position: -5px -5px;
+    width: 43px;
+    height: 44px;
+    top: -15px;
+    left: 5px;
+    display: block;
+    background-image: url(../images/sprites.png);
+    position: absolute;
+}
+
+.box:hover i {
+    background-position: -6px -57px;
+    width: 43px;
+    height: 44px;
+    top: -15px;
+    left: 5px;
+    display: block;
+    background-image: url(../images/sprites.png);
+    position: absolute;
+
+}
+
+.box {
+    margin: 40px 0;
+}
+
+.box-2 i {
+    background-position: -7px -112px;
+}
+
+.box-2:hover i {
+    background-position: -5px -167px;
+}
+
+.box-3 i {
+    background-position: -8px -223px;
+    width: 58px;
+    height: 40px;
+}
+
+.box-3:hover i {
+    background-position: -10px -276px;
+    width: 58px;
+    height: 40px;
+}
+
+.box-4 i {
+    background-position: -13px -330px;
+    width: 46px;
+    height: 47px;
+}
+
+.box-4:hover i {
+    background-position: -14px -389px;
+    width: 46px;
+    height: 47px;
+}
+
+.box-5 i {
+    background-position: -100px -6px;
+    height: 43px;
+}
+
+.box-5:hover i {
+    background-position: -100px -61px;
+    width: 43px;
+    height: 43px;
+}
+
+.box-6 i {
+    background-position: -107px -117px;
+    width: 27px;
+    height: 51px;
+}
+
+.box-6:hover i {
+    background-position: -107px -182px;
+    width: 27px;
+    height: 51px;
+}
+
+h5 {
+    padding-top: 45px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.feedback {
+    background: #fff;
+    padding: 20px 0 20px 0;
+    margin: 20px 0;
+}
+
+.feedback p {
+    position: relative;
+    display: inline-block;
+    margin-left: 22px;
+}
+
+.feedback p::before {
+    content: "";
+    width: 11px;
+    height: 9px;
+    left: -18px;
+    display: block;
+    background-image: url(../images/ic-quote.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.feedback b {
+    display: inline-block;
+    position: relative;
+
+}
+
+.feedback b::after {
+    content: "";
+    background-repeat: no-repeat;
+    display: block;
+    background-image: url(../images/ic-quote2.png);
+    width: 11px;
+    height: 9px;
+    top: -4px;
+    left: 5px;
+    position: absolute;
+}
+
+s {
+    margin: 0 auto;
+    display: block;
+    width: 121px;
+    height: 121px;
+    background: url(../images/darwin.png) 0 0 no-repeat;
+}
+
+.fb-2 s {
+    background: url(../images/elisabath.png) 0 0 no-repeat;
+}
+
+.fb-3 s {
+    background: url(../images/arter.png) 0 0 no-repeat;
+}
+
+.fb-4 s {
+    background: url(../images/zam.png) 0 0 no-repeat;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.feedback span:first-of-type {
+    color: #f6772c;
+    margin-left: 22px;
+}
+
+.feedback span:last-of-type {
+    color: #99a9ae;
+}
+
+.orange-body {
+    background: #ffc155;
+    padding-bottom: 30px;
+}
+
+.orange-body > p:first-of-type {
+    color: #fff;
+}
+
+footer {
+    background: #709dca;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
+
+footer p {
+    margin-top: 0;
+}
+
